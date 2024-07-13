@@ -3,5 +3,8 @@
 #!author= npes87184
 #!date = 2024-07-13 16:55:00
 
-[rewrite]
+[Rewrite]
 ^https://www.ptt.cc header-add Cookie over18=1
+
+[MITM]
+hostname = www.ptt.cc
