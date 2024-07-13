@@ -1,0 +1,7 @@
+#!name= PTT Skip Over 18 Check
+#!desc= PTT Skip Over 18 Check
+#!author= npes87184
+#!date = 2024-07-13 16:55:00
+
+[rewrite]
+^https://www.ptt.cc header-add Cookie over18=1
