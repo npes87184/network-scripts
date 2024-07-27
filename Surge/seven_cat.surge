@@ -1,0 +1,7 @@
+#!name=七貓小說擋廣告
+#!desc=七貓小說擋廣告
+#!author= npes87184
+#!date = 2024-07-27 23:13:00
+
+[Rule]
+DOMAIN-SUFFIX,qm989.com,REJECT-TINYGIF
