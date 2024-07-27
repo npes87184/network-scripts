@@ -1,9 +1,10 @@
 #!name= Dcard Ad Blocker
 #!desc= Remove the Ads in Dcard APP
 #!author= npes87184
-#!date = 2024-07-11 23:00:00
+#!date = 2024-07-27 23:27:00
 #!icon= https://upload.wikimedia.org/wikipedia/commons/f/f8/Dcard_Favicon_x520.png
 
 [rule]
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/events$,REJECT
 URL-REGEX,^https:\/\/bilanx\.dcard\.tw\/v\d\/configs$,REJECT
+DOMAIN,dad-api.dcard.tw,REJECT
